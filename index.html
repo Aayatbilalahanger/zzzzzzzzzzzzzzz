@@ -8,10 +8,46 @@
    <link rel="stylesheet" href="background_styles.css"/>
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
+    <style>
+      #massage{
+        width: 300px;
+        height: 40px;
+        background-color: green;
+        position: fixed;
+        top: 55%;
+        left: 30%;
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+        line-height: 40px;
+        z-index: 999;
+
+      }
+      #close{
+        position: absolute;
+            top: 0px;
+            right: 7px;
+            cursor: pointer;
+      }
+    </style>
+    <script>
+function fun(){
+  document.getElementById("massage").style.display = "none";
+}
+    </script>
     <title>Coding school</title>
+    
   </head>
 
   <body>
+    <div id="massage">
+      thanks for watching our  website
+      <div id="close" onclick="fun()">
+        &times;
+
+      </div>
+
+    </div>
     <nav class="navbar">
       <div class="brand-title">Coding school</div>
       <a href="#" class="toggle-button">
