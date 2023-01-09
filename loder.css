@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+#loading{
+    width: 10px;
+    height: 20px;
+    border: 1px solid white;
+    background-color: green;
+    position: relative;
+    top: 300px;
+    left: 700px;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    position: relative;
+    top: 290px;
+    left: -20px;
+}
