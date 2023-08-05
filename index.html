@@ -1,18 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PLEASE WAIT A SECOND</title>
-    <link rel="stylesheet" href="loder.css">
-</head>
-<body>
-    <h1>Loading.....</h1>
-<div id="loading">
-    <!-- <p>Loading....</p> -->
-</div>
+<html>
+  <head>
+    <!-- !links of all pages  -->
+    <link rel="stylesheet" href="background_styles.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="rest.css">
+    <script src="script.js" defer></script>
+    <title>Coding school</title>
+  </head>
 
-<script src="loder.js"></script>
-</body>
+  <body>
+
+    <nav class="navbar">
+      <div class="brand-title">Coding school</div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <!-- ----------------------------- -->
+        <!-- 
+          ____________________________________
+
+
+                            SLIDER 
+
+          ______________________________________
+         -->
+        <ul>
+          <!-- <li><a href="#">Home</a></li> -->
+          <li><a href="#for">About us</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="sidebar.html" target="_blank">Learn</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div id="main">
+      <img src="img2.jpeg" alt="network error" id="slideimage" />
+      <div id="one" onclick="one()"></div>
+      <div id="two" onclick="two()"></div>
+      <div id="three" onclick="three()"></div>
+    </div>
+  <div id="website-togglebar">
+    <!--! todo section  -->
+    <details>
+      <summary>CODING SCHOOL</summary>
+      <p><a href="#">ABOUT WEBSITE</a></p>
+      <p<a href="sidebar.html">LEARN</a></p>
+      <p><a href="#">DOWNLOAD C PROGRAMS </a></p>
+
+    </details>
+  </div>
+  <div id="application">
+<!--! applications section  -->
+<h1>Applications of website</h1>
+<p>my name is aayat bilal website is for learning purpose those student who not pay to laern coding this paltform is free for learn coding line ,appdevlopment , artifical intaligence , python , machine learning , c , c++ , java python , ruby , app devlopment , webevlopment.Welcome to [Your Company Name]!
+
+  At [coding school], we are dedicated to making a positive impact in the lives of our customers. Our mission is to provide high-quality products and services that meet the diverse needs of our clients and enhance their everyday experiences.
+  
+  Founded in [Year], we started with a simple vision: to create a place where people could find innovative solutions and reliable resources. Since then, we have grown into a trusted brand known for its commitment to excellence and customer satisfaction. </p>
+
+  </div>
+  <div id="learn">
+   <h1>YOUTUBE  easy tut </h1>
+<!--! youtube section -->
+
+<video width="100%" height="400px" controls>
+  <source src="video.mkv" type="video/mp4">
+</video>
+  </div>
+<div id="footer">
+  <!-- !footer  -->
+  <pre>
+
+    CONTENT 
+    this is footer CONTENT
+  </pre>
+  <pre>
+                   corses
+                   appdevlopment 
+                   webevlopment
+                   machine learning
+                   artifical intaligence
+                  python c++
+                  c. java
+
+
+
+  </pre>
+maintanance in AB SOFTWARES COPYRIHGT 2022
+
+
+</div>
+    <script src="slider.js">
+      // function scrollw(){
+      //   window.scrollBy(0,-20)
+      // }
+    </script>
+  </body>
 </html>

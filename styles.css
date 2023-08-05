@@ -58,7 +58,7 @@ body {
 .navbar-links li a {
     display: block;
     text-decoration: none;
-    color: whitesmoke;
+    color: black;
     padding: 1rem;
 }
 
@@ -145,20 +145,20 @@ body {
 }
 
 #one {
-    left: 45%;
+    left: 51%;
     margin-left: -10px;
 
 }
 
 #two {
-    left: 30%;
+    left: 45%;
     margin-left: -12px;
 
 
 }
 
 #three {
-    left: 70%;
+    left: 59%;
     margin-left: -30px;
 }
 
